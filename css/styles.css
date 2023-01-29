@@ -1,5 +1,47 @@
+/* Defines generic formatting*/
 body {
   font-family: 'Times New Roman', Times, serif;
   background-color: #F9F6EE; /* Color is Bone White */
-  font-size: 18px;
+  font-size: 18.5px;
+}
+/* Sets more specific text options*/
+.text-e,
+.text-small {
+  font-size: 16.5px;
+}
+
+.text-e {
+  font-style: italic;
+}
+
+.text-b {
+  font-weight: bold;
+}
+
+/* Defines image options */
+.img-standard {
+  height: auto;
+  width: 575px;
+}
+
+.img-tall {
+  height:600px;
+  width:auto;
+}
+/* Defines Header size */
+.header.title {
+  font-size: 36px;
+  text-decoration-thickness: 3px;
+}
+
+.header {
+  font-size: 25px;
+  text-decoration: underline solid black 2px;
+}
+.header.sub {
+  font-size: 22px;
+}
+
+#sources.header {
+  font-size: 20px;
 }
